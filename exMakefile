@@ -1,0 +1,21 @@
+# Compilers
+CC = gcc
+CXX = g++
+
+# Flags
+CFLAGS = -Wall -Wextra
+CXXFLAGS = -Wall -Wextra
+
+# Compile and run C
+%: %.c
+	$(CC) $(CFLAGS) -o $@ $<
+	./$@
+
+# Compile and run C++
+%: %.cpp
+	$(CXX) $(CXXFLAGS) -o $@ $<
+	./$@
+
+# Clean compiled files
+clean:
+	rm -f *.o
