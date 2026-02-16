@@ -22,4 +22,3 @@ CXXFLAGS = -Wall -Wextra
 # Clean compiled files
 clean:
 	rm -f *.o
-
