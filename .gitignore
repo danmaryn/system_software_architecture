@@ -9,6 +9,9 @@ task*
 !*.c
 !*.h
 !*.md
+!*.png
+!*.jpg
+!*.jpeg
 
 !*/
 
