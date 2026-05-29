@@ -1,5 +1,6 @@
 *.o
 *.out
+*.log
 
 *.so
 *.a
@@ -9,6 +10,8 @@ task*
 !*.c
 !*.h
 !*.md
+!*.sh
+!*.txt
 !*.png
 !*.jpg
 !*.jpeg
